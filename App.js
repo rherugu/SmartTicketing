@@ -1,7 +1,7 @@
 import 'react-native-gesture-handler';
 import {NavigationContainer} from '@react-navigation/native';
 import React, { Component } from 'react';
-// vaibhav
+
 import {
   StyleSheet,
   Text,
