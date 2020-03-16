@@ -37,17 +37,12 @@ export default class ResetPass extends Component {
       alert('Thank you!')
   }
   render() {
-
+    const {navigate} = this.props.navigation;
     return (
         <View style={styles.container}>
           <Text style={styles.heading}>Reset Password</Text>
           <View style={styles.container1}>
 
-          
-
-          <TouchableOpacity style={[styles.buttonContainer, styles.btn, styles.buttonContainer2, styles.container1]}>
-              <Text style={styles.btntxt}>Help</Text>
-          </TouchableOpacity>
           </View>
           
         </View>
