@@ -18,6 +18,7 @@ import mainScreen from './src/components/mainScreen';
 import {createStackNavigator} from '@react-navigation/stack'
 import login from './src/components/login';
 import register from './src/components/register';
+import help from './src/components/help'
 
 const Stack = createStackNavigator();
 
@@ -39,6 +40,10 @@ export default class App extends Component {
              <Stack.Screen
                name="Register"
                component={register}
+             />
+            <Stack.Screen
+               name="Help"
+               component={help}
              />
            </Stack.Navigator>
          </NavigationContainer>

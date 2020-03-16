@@ -54,7 +54,7 @@ export default class register extends Component {
 
   
   render() {
-
+    const {navigate} = this.props.navigation;
     return (
         <View style={styles.container}>
           <View style={styles.container1}>
@@ -145,7 +145,8 @@ export default class register extends Component {
           </TouchableOpacity>
 
 
-          <TouchableOpacity style={[styles.buttonContainer, styles.btn, styles.buttonContainer2, styles.container1]}>
+          <TouchableOpacity style={[styles.buttonContainer, styles.btn, styles.buttonContainer2, styles.container1]} onPress={()=>{
+               navigate('Help')}}>
               <Text style={styles.btntxt}>Help</Text>
           </TouchableOpacity>
           </View>
