@@ -1,4 +1,3 @@
-
 import 'react-native-gesture-handler';
 import {NavigationContainer} from '@react-navigation/native';
 import React, { Component } from 'react';
@@ -19,6 +18,8 @@ import {createStackNavigator} from '@react-navigation/stack'
 import login from './src/components/login';
 import register from './src/components/register';
 import help from './src/components/help'
+
+import ResetPass from './src/components/ResetPass';
 
 const Stack = createStackNavigator();
 
@@ -41,9 +42,15 @@ export default class App extends Component {
                name="Register"
                component={register}
              />
+
             <Stack.Screen
                name="Help"
-               component={help}
+               component={help}/>
+
+             <Stack.Screen
+               name="Reset Password"
+               component={ResetPass}
+
              />
            </Stack.Navigator>
          </NavigationContainer>

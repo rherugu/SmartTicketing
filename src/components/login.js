@@ -92,9 +92,9 @@ export default class login extends Component {
         
           <TouchableOpacity style={[styles.buttonContainer, styles.btn, styles.buttonContainer2, styles.container1]} onPress={() => {
             // this.onClickListener('restore_password/email')
-            
+            this.props.navigation.navigate("Reset Password")
             }}>
-              <Text style={styles.btntxt}>Forgot your password or email?</Text>
+              <Text style={styles.btntxt}>Forgot your password?</Text>
           </TouchableOpacity>
 
           <TouchableOpacity style={[styles.buttonContainer, styles.btn, styles.buttonContainer2, styles.container1]}
