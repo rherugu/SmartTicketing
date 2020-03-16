@@ -40,7 +40,7 @@ export default class ResetPass extends Component {
 
     return (
         <View style={styles.container}>
-          <Text>Forgot Password?</Text>
+          <Text style={styles.heading}>Reset Password</Text>
           <View style={styles.container1}>
 
           
@@ -125,7 +125,10 @@ const styles = StyleSheet.create({
   },
   button: {
     backgroundColor: '#DDDDDD',
-  }
+  },
+  heading: {
+    fontSize: 24,
+  },
 
 });
  
