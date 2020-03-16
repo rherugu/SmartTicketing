@@ -18,7 +18,7 @@ import mainScreen from './mainScreen';
 import {createStackNavigator} from '@react-navigation/stack'
 
 
-export default class login extends Component {
+export default class ResetPass extends Component {
 
   state = {
     email: '',
@@ -40,60 +40,10 @@ export default class login extends Component {
 
     return (
         <View style={styles.container}>
-
+          <Text>Forgot Password?</Text>
           <View style={styles.container1}>
-          <View style={[styles.inputContainer, styles.container1]}>
-            <Image style={styles.inputIcon} source={{uri: 'https://img.icons8.com/ios/50/000000/email.png'}}/>
-            <TextInput style={styles.inputs}
-                underlineColorAndroid = "transparent"
-                placeholder = 'Username'
-                placeholderTextColor = "#AAAAAA"
-                autoCapitalize = "none"
-                onChangeText = {this.handleUsername}
-                onChangeText={(text) => this.setState({ email: text })}
-                value={this.state.email}
-                editable
-                />
-                {/* /> */}
-          </View>
+
           
-          <View style={[styles.inputContainer, styles.container1]}>
-            <Image style={styles.inputIcon} source={{uri: 'https://img.icons8.com/ios/50/000000/key-security.png'}}/>
-            <TextInput style={styles.inputs}
-                underlineColorAndroid = "transparent"
-                placeholder = 'Password'
-                placeholderTextColor = "#AAAAAA"
-                autoCapitalize = "none"
-                value={this.state.password}
-                onChangeText = {this.handlePassword}
-                onChangeText={(text) => this.setState({ password: text })}
-                secureTextEntry = 'true'
-                editable
-                />
-          </View>
-
-          <TouchableOpacity style={[styles.buttonContainer, styles.loginButton, styles.container1]} onPress={() => {
-            // this.onClickListener('login')
-            this.props.navigation.navigate("Dashboard")
-          }}>
-            <Text style={styles.loginText}>Login</Text>
-          </TouchableOpacity>
-        
-          <TouchableOpacity style={[styles.buttonContainer, styles.btn, styles.buttonContainer2, styles.container1]} onPress={() => {
-            // this.onClickListener('restore_password/email')
-            this.props.navigation.navigate("Reset Password")
-            }}>
-              <Text style={styles.btntxt}>Forgot your password or email?</Text>
-          </TouchableOpacity>
-
-          <TouchableOpacity style={[styles.buttonContainer, styles.btn, styles.buttonContainer2, styles.container1]}
-            onPress={() => {
-              this.props.navigation.navigate("Register")
-            }}
-          >
-              <Text style={styles.btntxt}>Register</Text>
-          </TouchableOpacity>
-
 
           <TouchableOpacity style={[styles.buttonContainer, styles.btn, styles.buttonContainer2, styles.container1]}>
               <Text style={styles.btntxt}>Help</Text>
