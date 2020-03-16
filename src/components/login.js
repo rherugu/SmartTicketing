@@ -27,7 +27,7 @@ export default class login extends Component {
 
 
   handleUsername = (text) => {
-      console.log("###hi", text);
+//      console.log("###hi", text);
       this.setState({ email: text })
   }
   handlePassword = (text) => {
@@ -37,7 +37,7 @@ export default class login extends Component {
       alert('Thank you!')
   }
   render() {
-
+    const {navigate} = this.props.navigation;
     return (
         <View style={styles.container}>
 
@@ -74,7 +74,18 @@ export default class login extends Component {
 
           <TouchableOpacity style={[styles.buttonContainer, styles.loginButton, styles.container1]} onPress={() => {
             // this.onClickListener('login')
-            this.props.navigation.navigate("Dashboard")
+            /*this.props.navigation.*/
+            if(this.state.email === 'Username' && this.state.password === 'Password'){
+              navigate('Dashboard')
+           }else if(this.state.email === '' && this.state.password === ''){
+              alert('Please enter a username and password.')
+           }else if(this.state.email === '' && this.state.password !== ''){
+              alert('Please enter a username.')
+           }else if(this.state.email !== '' && this.state.password === ''){
+              alert('Please enter a password.')
+           }else{
+              alert('Sorry, your username and/or password is incorrect') 
+           }
           }}>
             <Text style={styles.loginText}>Login</Text>
           </TouchableOpacity>
@@ -88,14 +99,15 @@ export default class login extends Component {
 
           <TouchableOpacity style={[styles.buttonContainer, styles.btn, styles.buttonContainer2, styles.container1]}
             onPress={() => {
-              this.props.navigation.navigate("Register")
+              /*this.props.navigation.*/navigate("Register")
             }}
           >
               <Text style={styles.btntxt}>Register</Text>
           </TouchableOpacity>
 
 
-          <TouchableOpacity style={[styles.buttonContainer, styles.btn, styles.buttonContainer2, styles.container1]}>
+          <TouchableOpacity style={[styles.buttonContainer, styles.btn, styles.buttonContainer2, styles.container1]} onPress={()=>{
+               navigate('Help')}}>
               <Text style={styles.btntxt}>Help</Text>
           </TouchableOpacity>
           </View>

@@ -17,6 +17,7 @@ import mainScreen from './src/components/mainScreen';
 import {createStackNavigator} from '@react-navigation/stack'
 import login from './src/components/login';
 import register from './src/components/register';
+import help from './src/components/help'
 
 import ResetPass from './src/components/ResetPass';
 
@@ -41,9 +42,15 @@ export default class App extends Component {
                name="Register"
                component={register}
              />
+
+            <Stack.Screen
+               name="Help"
+               component={help}/>
+
              <Stack.Screen
                name="Reset Password"
                component={ResetPass}
+
              />
            </Stack.Navigator>
          </NavigationContainer>
