@@ -22,37 +22,95 @@ export default class help extends Component {
 
   state = {
     helpSearch: '',
+    email: '',
+    phone: '',
   }
 
 
-  handleUsername = (text) => {
+  handleSearch = (text) => {
       this.setState({ helpSearch: text })
   }
 
+    handleEmail = (text) => {
+    this.setState({ email: text })
+  }
+
+    handlePhone = (text) => {
+    this.setState({ phone: text })
+  }
   render() {
     const {navigate} = this.props.navigation;
     return (
-      <View style={styles.container}>
-      <Text style={styles.heading}>Help</Text>
-      <View style={styles.container1}>
-      </View>
-      
+      <View style={styles.View}>
+      <View style={[styles.inputContainer, styles.container1]}>
+      <Image style={styles.inputIcon} source={{uri: 'https://img.icons8.com/material-outlined/24/000000/mail-account.png'}}/>
+      <TextInput style={styles.inputs}
+          underlineColorAndroid = "transparent"
+          placeholder = 'Email'
+          placeholderTextColor = "#AAAAAA"
+          autoCapitalize = "none"
+          onChangeText = {this.handleEmail}
+          editable
+          />
+        </View>
+
+        <View style={[styles.inputContainer, styles.container1]}>
+      <Image style={styles.inputIcon} source={{uri: 'https://img.icons8.com/ios-glyphs/30/000000/phone--v1.png'}}/>
+      <TextInput style={styles.inputs}
+          underlineColorAndroid = "transparent"
+          placeholder = 'Phone Number'
+          placeholderTextColor = "#AAAAAA"
+          autoCapitalize = "none"
+          onChangeText = {this.handlePhone}
+          editable
+          />
+        </View>
+
+<View style={[styles.inputContainer, styles.container1]}>
+      <Image style={styles.inputIcon} source={{uri: 'https://img.icons8.com/ios-filled/32/000000/question-mark.png'}}/>
+      <TextInput style={styles.inputs}
+          underlineColorAndroid = "transparent"
+          placeholder = 'Query'
+          placeholderTextColor = "#AAAAAA"
+          autoCapitalize = "none"
+          onChangeText = {this.handleSearch}
+          />
+    </View>
+    <TouchableOpacity style={[styles.buttonContainer, styles.loginButton, styles.container1]} onPress={() => {
+      /*alert('Thank you! Your message is sent, and you will get a reply soon through your email or your phone number.')*/
+      // if(this.state.email === '' && this.state.phone === '' && this.state.helpSearch === ''){
+      //   alert('Please enter your email, your phone number and your question.')
+      // } else if(this.state.email === '' && this.state.phone === '' && this.state.helpSearch != ''){
+      //   alert('Please enter your email and your phone number.')
+      // } else if(this.state.email != '' && this.state.phone === '' && this.state.helpSearch === ''){
+      //   alert('Please enter your question and your phone number.')
+      // } else if(this.state.email === '' && this.state.phone != '' && this.state.helpSearch === ''){
+      //   alert('Please enter your email and your question.')
+      // }
+      if(this.state.email === '' || this.state.phone === '' || this.state.helpSearch === ''){
+        alert('Please fill in every space provided.')
+      } else {
+        alert('Thank you! Your message is sent, and you will get a reply soon through your email or your phone number.')
+      }
+      }}>
+            <Text style={styles.loginText}>Search</Text>
+          </TouchableOpacity>
     </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
+  View: {
     alignItems: 'center',
-    backgroundColor: '#DCDCDC',
-    opacity: 1,
-    
+    justifyContent: 'center',
+    flex: 1,
+
   },
   container1: {
     opacity: 1,
+    alignItems: 'center',
+    
   },
   inputContainer: {
       borderBottomColor: '#F5FCFF',
@@ -84,9 +142,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom:20,
-    width:250,
-    borderRadius:30,
+    marginBottom: 20,
+    width: 250,
+    borderRadius: 30,
   },
   loginButton: {
     backgroundColor: "#00b5ec",
@@ -112,9 +170,6 @@ const styles = StyleSheet.create({
   },
   button: {
     backgroundColor: '#DDDDDD',
-  },
-  heading: {
-    fontSize: 24,
-  },
+  }
 
 });
