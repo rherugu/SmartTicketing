@@ -93,7 +93,7 @@ export default class help extends Component {
         alert('Thank you! Your message is sent, and you will get a reply soon through your email or your phone number.')
       }
       }}>
-            <Text style={styles.loginText}>Search</Text>
+            <Text style={styles.loginText}>Submit</Text>
           </TouchableOpacity>
     </View>
     );
@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     flex: 1,
-
+    backgroundColor: '#DCDCDC',
   },
   container1: {
     opacity: 1,

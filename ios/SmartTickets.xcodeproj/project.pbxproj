@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* SmartTicketsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SmartTicketsTests.m */; };
-		0A1851ED04077EAEE9D7B2E7 /* libPods-SmartTickets-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1737375E30D9FFB6DDDC5D34 /* libPods-SmartTickets-tvOSTests.a */; };
+		10D93B257239FA7EB9B427B7 /* libPods-SmartTickets-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 167289DF7F05A5F31A964DA4 /* libPods-SmartTickets-tvOSTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -17,9 +17,9 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* SmartTicketsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SmartTicketsTests.m */; };
-		50B38D7D983EB33191A1CBE9 /* libPods-SmartTickets-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3D2660D7C8A8C32047FD68 /* libPods-SmartTickets-tvOS.a */; };
-		6DC387E8D166D32088B8138A /* libPods-SmartTickets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72556877480DA9A9DCB06F98 /* libPods-SmartTickets.a */; };
-		A2F56F56511056CB37FCC889 /* libPods-SmartTicketsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2089199C38C7134AB6D6805 /* libPods-SmartTicketsTests.a */; };
+		57F548730BD520464023E2A8 /* libPods-SmartTickets-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8E626C068C133EDB4FC3F7 /* libPods-SmartTickets-tvOS.a */; };
+		958FA118C890D2A8A4B36E88 /* libPods-SmartTicketsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 300EC4D12E9B72A5FA429809 /* libPods-SmartTicketsTests.a */; };
+		A709D6870BB5173F0E03E4E2 /* libPods-SmartTickets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5247A7268516D16590038D18 /* libPods-SmartTickets.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,22 +51,22 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SmartTickets/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SmartTickets/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SmartTickets/main.m; sourceTree = "<group>"; };
-		1737375E30D9FFB6DDDC5D34 /* libPods-SmartTickets-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartTickets-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		167289DF7F05A5F31A964DA4 /* libPods-SmartTickets-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartTickets-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2020BBC513A963C6E1A277AA /* Pods-SmartTickets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTickets.debug.xcconfig"; path = "Target Support Files/Pods-SmartTickets/Pods-SmartTickets.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* SmartTickets-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SmartTickets-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* SmartTickets-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SmartTickets-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33F0724683FA08D00FEB540D /* Pods-SmartTickets-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTickets-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-SmartTickets-tvOS/Pods-SmartTickets-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		4C29F16237EBDA20DAFFB888 /* Pods-SmartTickets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTickets.debug.xcconfig"; path = "Target Support Files/Pods-SmartTickets/Pods-SmartTickets.debug.xcconfig"; sourceTree = "<group>"; };
-		54C7EA1DA5197FDB073478EB /* Pods-SmartTicketsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTicketsTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartTicketsTests/Pods-SmartTicketsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		72556877480DA9A9DCB06F98 /* libPods-SmartTickets.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartTickets.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		868C4003BCAB9CD5B03A3C1C /* Pods-SmartTickets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTickets.release.xcconfig"; path = "Target Support Files/Pods-SmartTickets/Pods-SmartTickets.release.xcconfig"; sourceTree = "<group>"; };
-		B4BE1B7B7560A6F7764B7C52 /* Pods-SmartTickets-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTickets-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SmartTickets-tvOS/Pods-SmartTickets-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		BE3D2660D7C8A8C32047FD68 /* libPods-SmartTickets-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartTickets-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2089199C38C7134AB6D6805 /* libPods-SmartTicketsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartTicketsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7BA3CA6455F27966A9B2991 /* Pods-SmartTicketsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTicketsTests.release.xcconfig"; path = "Target Support Files/Pods-SmartTicketsTests/Pods-SmartTicketsTests.release.xcconfig"; sourceTree = "<group>"; };
+		300EC4D12E9B72A5FA429809 /* libPods-SmartTicketsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartTicketsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5247A7268516D16590038D18 /* libPods-SmartTickets.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartTickets.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63016CE81B53B6C8E2C5A78A /* Pods-SmartTicketsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTicketsTests.release.xcconfig"; path = "Target Support Files/Pods-SmartTicketsTests/Pods-SmartTicketsTests.release.xcconfig"; sourceTree = "<group>"; };
+		63351F62441937E7A8D10307 /* Pods-SmartTicketsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTicketsTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartTicketsTests/Pods-SmartTicketsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A8E626C068C133EDB4FC3F7 /* libPods-SmartTickets-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartTickets-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		824E1FFDC69ADCB95545C498 /* Pods-SmartTickets-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTickets-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-SmartTickets-tvOS/Pods-SmartTickets-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		96E7CBBFCD7B31DB23B03348 /* Pods-SmartTickets-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTickets-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SmartTickets-tvOSTests/Pods-SmartTickets-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A3BA1A4BC617DAB97775FD8D /* Pods-SmartTickets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTickets.release.xcconfig"; path = "Target Support Files/Pods-SmartTickets/Pods-SmartTickets.release.xcconfig"; sourceTree = "<group>"; };
+		EBDE26125A828FF87CCBD1CE /* Pods-SmartTickets-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTickets-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SmartTickets-tvOS/Pods-SmartTickets-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F3537BBF334C4D883B89A726 /* Pods-SmartTickets-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTickets-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartTickets-tvOSTests/Pods-SmartTickets-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F6EE2D1C9AE9A1088C48DBBC /* Pods-SmartTickets-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTickets-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SmartTickets-tvOSTests/Pods-SmartTickets-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F9CDFC075CB419CF20F6A633 /* Pods-SmartTickets-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTickets-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartTickets-tvOSTests/Pods-SmartTickets-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2F56F56511056CB37FCC889 /* libPods-SmartTicketsTests.a in Frameworks */,
+				958FA118C890D2A8A4B36E88 /* libPods-SmartTicketsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DC387E8D166D32088B8138A /* libPods-SmartTickets.a in Frameworks */,
+				A709D6870BB5173F0E03E4E2 /* libPods-SmartTickets.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50B38D7D983EB33191A1CBE9 /* libPods-SmartTickets-tvOS.a in Frameworks */,
+				57F548730BD520464023E2A8 /* libPods-SmartTickets-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A1851ED04077EAEE9D7B2E7 /* libPods-SmartTickets-tvOSTests.a in Frameworks */,
+				10D93B257239FA7EB9B427B7 /* libPods-SmartTickets-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,12 +141,28 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				72556877480DA9A9DCB06F98 /* libPods-SmartTickets.a */,
-				BE3D2660D7C8A8C32047FD68 /* libPods-SmartTickets-tvOS.a */,
-				1737375E30D9FFB6DDDC5D34 /* libPods-SmartTickets-tvOSTests.a */,
-				C2089199C38C7134AB6D6805 /* libPods-SmartTicketsTests.a */,
+				5247A7268516D16590038D18 /* libPods-SmartTickets.a */,
+				6A8E626C068C133EDB4FC3F7 /* libPods-SmartTickets-tvOS.a */,
+				167289DF7F05A5F31A964DA4 /* libPods-SmartTickets-tvOSTests.a */,
+				300EC4D12E9B72A5FA429809 /* libPods-SmartTicketsTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7784BC79E90E34272CAE478A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2020BBC513A963C6E1A277AA /* Pods-SmartTickets.debug.xcconfig */,
+				A3BA1A4BC617DAB97775FD8D /* Pods-SmartTickets.release.xcconfig */,
+				824E1FFDC69ADCB95545C498 /* Pods-SmartTickets-tvOS.debug.xcconfig */,
+				EBDE26125A828FF87CCBD1CE /* Pods-SmartTickets-tvOS.release.xcconfig */,
+				F9CDFC075CB419CF20F6A633 /* Pods-SmartTickets-tvOSTests.debug.xcconfig */,
+				96E7CBBFCD7B31DB23B03348 /* Pods-SmartTickets-tvOSTests.release.xcconfig */,
+				63351F62441937E7A8D10307 /* Pods-SmartTicketsTests.debug.xcconfig */,
+				63016CE81B53B6C8E2C5A78A /* Pods-SmartTicketsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -164,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* SmartTicketsTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				8738DD6A6631724340308DE0 /* Pods */,
+				7784BC79E90E34272CAE478A /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -182,22 +198,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8738DD6A6631724340308DE0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4C29F16237EBDA20DAFFB888 /* Pods-SmartTickets.debug.xcconfig */,
-				868C4003BCAB9CD5B03A3C1C /* Pods-SmartTickets.release.xcconfig */,
-				33F0724683FA08D00FEB540D /* Pods-SmartTickets-tvOS.debug.xcconfig */,
-				B4BE1B7B7560A6F7764B7C52 /* Pods-SmartTickets-tvOS.release.xcconfig */,
-				F3537BBF334C4D883B89A726 /* Pods-SmartTickets-tvOSTests.debug.xcconfig */,
-				F6EE2D1C9AE9A1088C48DBBC /* Pods-SmartTickets-tvOSTests.release.xcconfig */,
-				54C7EA1DA5197FDB073478EB /* Pods-SmartTicketsTests.debug.xcconfig */,
-				D7BA3CA6455F27966A9B2991 /* Pods-SmartTicketsTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,7 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SmartTicketsTests" */;
 			buildPhases = (
-				A0A3C70DDB1456EC6E71B20E /* [CP] Check Pods Manifest.lock */,
+				3FE269C9FDA51DB6CD4FB8E6 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,13 +224,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SmartTickets" */;
 			buildPhases = (
-				53C13BBC546AE01FF4D704D5 /* [CP] Check Pods Manifest.lock */,
+				D4514DFE319D068E07D45CDF /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				B49CC193DDB6C76FFB7A36A4 /* [CP] Copy Pods Resources */,
+				9A8573F57BB6F6A5D09FBCFA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,7 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SmartTickets-tvOS" */;
 			buildPhases = (
-				F8948C661E8377AFDCEF5CCA /* [CP] Check Pods Manifest.lock */,
+				34E3BCADD6CFE721FE7E999D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -265,7 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SmartTickets-tvOSTests" */;
 			buildPhases = (
-				FAAF34ABDFE698BECFAEAEC8 /* [CP] Check Pods Manifest.lock */,
+				3E35154B808E72A79311E1DC /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -388,69 +388,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		53C13BBC546AE01FF4D704D5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SmartTickets-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A0A3C70DDB1456EC6E71B20E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SmartTicketsTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B49CC193DDB6C76FFB7A36A4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SmartTickets/Pods-SmartTickets-resources.sh",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartTickets/Pods-SmartTickets-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F8948C661E8377AFDCEF5CCA /* [CP] Check Pods Manifest.lock */ = {
+		34E3BCADD6CFE721FE7E999D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -472,7 +410,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FAAF34ABDFE698BECFAEAEC8 /* [CP] Check Pods Manifest.lock */ = {
+		3E35154B808E72A79311E1DC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -488,6 +426,68 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SmartTickets-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FE269C9FDA51DB6CD4FB8E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartTicketsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A8573F57BB6F6A5D09FBCFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartTickets/Pods-SmartTickets-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartTickets/Pods-SmartTickets-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4514DFE319D068E07D45CDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartTickets-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -599,7 +599,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54C7EA1DA5197FDB073478EB /* Pods-SmartTicketsTests.debug.xcconfig */;
+			baseConfigurationReference = 63351F62441937E7A8D10307 /* Pods-SmartTicketsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -622,7 +622,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7BA3CA6455F27966A9B2991 /* Pods-SmartTicketsTests.release.xcconfig */;
+			baseConfigurationReference = 63016CE81B53B6C8E2C5A78A /* Pods-SmartTicketsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -642,7 +642,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C29F16237EBDA20DAFFB888 /* Pods-SmartTickets.debug.xcconfig */;
+			baseConfigurationReference = 2020BBC513A963C6E1A277AA /* Pods-SmartTickets.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -662,7 +662,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 868C4003BCAB9CD5B03A3C1C /* Pods-SmartTickets.release.xcconfig */;
+			baseConfigurationReference = A3BA1A4BC617DAB97775FD8D /* Pods-SmartTickets.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -681,7 +681,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33F0724683FA08D00FEB540D /* Pods-SmartTickets-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 824E1FFDC69ADCB95545C498 /* Pods-SmartTickets-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -709,7 +709,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4BE1B7B7560A6F7764B7C52 /* Pods-SmartTickets-tvOS.release.xcconfig */;
+			baseConfigurationReference = EBDE26125A828FF87CCBD1CE /* Pods-SmartTickets-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -737,7 +737,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3537BBF334C4D883B89A726 /* Pods-SmartTickets-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = F9CDFC075CB419CF20F6A633 /* Pods-SmartTickets-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -764,7 +764,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6EE2D1C9AE9A1088C48DBBC /* Pods-SmartTickets-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 96E7CBBFCD7B31DB23B03348 /* Pods-SmartTickets-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
