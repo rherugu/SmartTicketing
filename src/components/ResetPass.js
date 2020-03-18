@@ -22,25 +22,44 @@ export default class ResetPass extends Component {
 
   state = {
     email: '',
-    password: '',
   }
 
 
-  handleUsername = (text) => {
-      console.log("###hi", text);
+  handleEmail = (text) => {
       this.setState({ email: text })
-  }
-  handlePassword = (text) => {
-      this.setState({ password: text })
-  }
-  login = (email, pass) => {
-      alert('Thank you!')
   }
   render() {
     const {navigate} = this.props.navigation;
     return (
         <View style={styles.container}>
-          <Text style={styles.heading}>Reset Password</Text>
+          <Text style={styles.heading}>Enter your email here so we can send you a confirmation email!</Text>
+          <View style={[styles.inputContainer, styles.container1]}>
+            <Image style={styles.inputIcon} source={{uri: 'https://img.icons8.com/ios/50/000000/email.png'}}/>
+            <TextInput style={styles.inputs}
+                underlineColorAndroid = "transparent"
+                placeholder = 'Email'
+                placeholderTextColor = "#AAAAAA"
+                autoCapitalize = "none"
+                onChangeText = {this.handleUsername}
+                onChangeText={(text) => this.setState({ email: text })}
+                value={this.state.email}
+                editable
+                />
+                </View>
+
+                <View style={[styles.container1]}>
+                <TouchableOpacity style={[styles.buttonContainer, styles.loginButton, styles.container1]} onPress={() => {
+                  if(this.state.email != ''){
+                    alert('Thank you!')
+                  } else {
+                    alert('Please enter your email so we can send you a confirmation email.')
+                  }
+                }}>
+                  
+            <Text style={styles.loginText}>Submit</Text>
+          </TouchableOpacity>
+                
+                </View>
           <View style={styles.container1}>
 
           </View>
@@ -122,7 +141,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#DDDDDD',
   },
   heading: {
-    fontSize: 24,
+    fontSize: 15,
+    textAlign: 'center',
+    marginLeft: 50,
+    marginRight: 50,
+    marginBottom: 25
   },
 
 });

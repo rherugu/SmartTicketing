@@ -30,26 +30,19 @@ export default class register extends Component {
 
 
   handleUsername = (text) => {
-      console.log("###hi", text);
       this.setState({ email: text })
   }
   handlePassword = (text) => {
       this.setState({ password: text })
   }
   handleFirstName = (text) => {
-    console.log("###hi", text);
     this.setState({ firstName: text })
   }
   handleLastName = (text) => {
-    console.log("###hi", text);
     this.setState({ lastName: text })
   }
   handleRepeatPassword = (text) => {
-    console.log("###hi", text);
     this.setState({ repeatPassword: text })
-  }
-  login = (email, pass) => {
-      alert('Thank you!')
   }
 
   
@@ -130,7 +123,11 @@ export default class register extends Component {
 
           <TouchableOpacity style={[styles.buttonContainer, styles.loginButton, styles.container1]} onPress={() => {
             // this.onClickListener('login')
-            this.props.navigation.navigate("Dashboard")
+            if(this.state.email === '' || this.state.password === '' || this.state.firstName === '' || this.state.lastName === '' || this.state.repeatPassword === ''){
+              alert('Please fill in every space provided.')
+            } else {
+              navigate('Dashboard')
+            }
           }}>
             <Text style={styles.loginText}>Create Your Account!</Text>
           </TouchableOpacity>
@@ -139,14 +136,15 @@ export default class register extends Component {
             
           <TouchableOpacity style={[styles.buttonContainer, styles.btn, styles.buttonContainer2, styles.container1]} onPress={() => {
             // this.onClickListener('restore_password/email')
-            this.props.navigation.navigate("Login")
+            navigate("Login")
             }}>
               <Text style={styles.btntxt}>Already Have an Account? Login!</Text>
           </TouchableOpacity>
 
 
           <TouchableOpacity style={[styles.buttonContainer, styles.btn, styles.buttonContainer2, styles.container1]} onPress={()=>{
-               navigate('Help')}}>
+            navigate('Help')
+               }}>
               <Text style={styles.btntxt}>Help</Text>
           </TouchableOpacity>
           </View>
