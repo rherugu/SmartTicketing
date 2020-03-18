@@ -21,7 +21,7 @@ import {createStackNavigator} from '@react-navigation/stack'
 export default class login extends Component {
 
   state = {
-    email: '',
+    username: '',
     password: '',
   }
 
@@ -51,7 +51,7 @@ export default class login extends Component {
                 autoCapitalize = "none"
                 onChangeText = {this.handleUsername}
                 onChangeText={(text) => this.setState({ email: text })}
-                value={this.state.email}
+                value={this.state.username}
                 editable
                 />
                 {/* /> */}

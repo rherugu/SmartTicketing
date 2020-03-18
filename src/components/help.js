@@ -43,7 +43,7 @@ export default class help extends Component {
     return (
       <View style={styles.View}>
       <View style={[styles.inputContainer, styles.container1]}>
-      <Image style={styles.inputIcon} source={{uri: 'https://img.icons8.com/material-outlined/24/000000/mail-account.png'}}/>
+      <Image style={styles.inputIcon} source={{uri: 'https://img.icons8.com/ios/50/000000/email.png'}}/>
       <TextInput style={styles.inputs}
           underlineColorAndroid = "transparent"
           placeholder = 'Email'
