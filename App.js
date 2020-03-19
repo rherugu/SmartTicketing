@@ -20,6 +20,7 @@ import register from './src/components/register';
 import help from './src/components/help'
 
 import ResetPass from './src/components/ResetPass';
+import EnterCode from './src/components/EnterCode';
 
 const Stack = createStackNavigator();
 
@@ -50,6 +51,11 @@ export default class App extends Component {
              <Stack.Screen
                name="Reset Password"
                component={ResetPass}
+
+             />
+             <Stack.Screen
+               name="Enter Code"
+               component={EnterCode}
 
              />
            </Stack.Navigator>

@@ -51,7 +51,7 @@ export default class login extends Component {
                 autoCapitalize = "none"
                 onChangeText = {this.handleUsername}
                 onChangeText={(text) => this.setState({ email: text })}
-                value={this.state.username}
+                // value={this.state.username}
                 editable
                 />
                 {/* /> */}

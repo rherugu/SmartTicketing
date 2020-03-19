@@ -18,10 +18,10 @@ import mainScreen from './mainScreen';
 import {createStackNavigator} from '@react-navigation/stack'
 
 
-export default class ResetPass extends Component {
+export default class EnterCode extends Component {
 
   state = {
-    email: '',
+    code: '',
   }
 
 
@@ -32,29 +32,44 @@ export default class ResetPass extends Component {
     const {navigate} = this.props.navigation;
     return (
         <View style={styles.container}>
-          <Text style={styles.heading}>Enter your email here so we can send you a confirmation email!</Text>
+          <Text style={styles.heading}>We sent you an email containing a code. Enter the code here. Didn't receive an email?</Text>
+          <TouchableOpacity style={[styles.buttonContainer, styles.loginButton, styles.container1]} onPress={() => {
+                 
+                }}>
+                    
+                  
+            <Text style={styles.loginText}>Resend Email</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={[styles.buttonContainer, styles.loginButton, styles.container1]} onPress={() => {
+                 navigate('Reset Password')
+                }}>
+                    
+                  
+            <Text style={styles.loginText}>Wrong email? Change it here</Text>
+          </TouchableOpacity>
           <View style={[styles.inputContainer, styles.container1]}>
             <Image style={styles.inputIcon} source={{uri: 'https://img.icons8.com/ios/50/000000/email.png'}}/>
             <TextInput style={styles.inputs}
                 underlineColorAndroid = "transparent"
-                placeholder = 'Email'
+                placeholder = 'Enter Code'
                 placeholderTextColor = "#AAAAAA"
                 autoCapitalize = "none"
                 onChangeText = {this.handleUsername}
-                onChangeText={(text) => this.setState({ email: text })}
-                value={this.state.email}
+                onChangeText={(text) => this.setState({ code: text })}
+                value={this.state.code}
                 editable
                 />
                 </View>
 
                 <View style={[styles.container1]}>
                 <TouchableOpacity style={[styles.buttonContainer, styles.loginButton, styles.container1]} onPress={() => {
-                  if(this.state.email != ''){
+                  if(this.state.code != ''){
                     alert('Thank you!')
+                    navigate('Login')
                   } else {
-                    alert('Please enter your email so we can send you a confirmation email.')
+                    alert('Please enter code')
                   }
-                  navigate("Enter Code")
+                  
                 }}>
                   
             <Text style={styles.loginText}>Submit</Text>
