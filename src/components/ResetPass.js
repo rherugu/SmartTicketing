@@ -32,7 +32,7 @@ export default class ResetPass extends Component {
     const {navigate} = this.props.navigation;
     return (
         <View style={styles.container}>
-          <Text style={styles.heading}>Enter your email here so we can send you a confirmation email!</Text>
+          <Text style={styles.heading}>Enter your email here so we can send you a 6-digit code to reset your password.</Text>
           <View style={[styles.inputContainer, styles.container1]}>
             <Image style={styles.inputIcon} source={{uri: 'https://img.icons8.com/ios/50/000000/email.png'}}/>
             <TextInput style={styles.inputs}
@@ -50,11 +50,10 @@ export default class ResetPass extends Component {
                 <View style={[styles.container1]}>
                 <TouchableOpacity style={[styles.buttonContainer, styles.loginButton, styles.container1]} onPress={() => {
                   if(this.state.email != ''){
-                    alert('Thank you!')
+                    navigate("Enter Code")
                   } else {
-                    alert('Please enter your email so we can send you a confirmation email.')
+                    alert('Please enter your email so we can send you a code to reset your password.')
                   }
-                  navigate("Enter Code")
                 }}>
                   
             <Text style={styles.loginText}>Submit</Text>

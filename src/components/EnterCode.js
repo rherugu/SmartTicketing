@@ -32,9 +32,9 @@ export default class EnterCode extends Component {
     const {navigate} = this.props.navigation;
     return (
         <View style={styles.container}>
-          <Text style={styles.heading}>We sent you an email containing a code. Enter the code here. Didn't receive an email?</Text>
+          <Text style={styles.heading}>We sent you an email containing a 6-digit code. Enter the code here.</Text>
           <TouchableOpacity style={[styles.buttonContainer, styles.loginButton, styles.container1]} onPress={() => {
-                 
+                 alert('A new email has been sent.')
                 }}>
                     
                   
@@ -48,7 +48,7 @@ export default class EnterCode extends Component {
             <Text style={styles.loginText}>Wrong email? Change it here</Text>
           </TouchableOpacity>
           <View style={[styles.inputContainer, styles.container1]}>
-            <Image style={styles.inputIcon} source={{uri: 'https://img.icons8.com/ios/50/000000/email.png'}}/>
+            <Image style={styles.inputIcon} source={{uri: 'https://img.icons8.com/ios/50/000000/cancel-4-digits.png'}}/>
             <TextInput style={styles.inputs}
                 underlineColorAndroid = "transparent"
                 placeholder = 'Enter Code'
@@ -64,10 +64,9 @@ export default class EnterCode extends Component {
                 <View style={[styles.container1]}>
                 <TouchableOpacity style={[styles.buttonContainer, styles.loginButton, styles.container1]} onPress={() => {
                   if(this.state.code != ''){
-                    alert('Thank you!')
-                    navigate('Login')
+                    
                   } else {
-                    alert('Please enter code')
+                    alert('Please enter a code.')
                   }
                   
                 }}>
